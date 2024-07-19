@@ -1,0 +1,28 @@
+.flightAdmin-page{
+
+    padding-top: 15vh;
+    height: 100vh;
+    background-image: linear-gradient(0deg, #cd5f04, #e69455, #f7c999, #ffffe1);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.notApproved-box{
+
+    width: 60%;
+    text-align: center;
+    margin: 30vh 20%;
+    background-color: rgba(237, 239, 241, 0.692);
+    padding: 4vh 4vw;
+}
+
+.notApproved-box h3{
+
+    color: #e35252;
+}
+
+.notApproved-box p{
+
+    color: rgb(82, 102, 120);
+}

@@ -1,0 +1,84 @@
+.AuthenticatePage {
+    width: 100%;
+    height: 100vh;
+    padding-top: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  url('C:\Users\Chandu\Desktop\vs codeee\flight booking\client\src\Default_A_cinematic_photograph_of_a_commercial_airliner_taking_0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.authForm{
+    /* margin-top: 5%; */
+    /* border: 1px solid #cb7c7c; */
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    height: max-content;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.267);
+    backdrop-filter: blur(15px);
+    padding: 15px 20px 0px 20px;
+    border-radius: 0.9rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+
+}
+.authForm h2{
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: b;
+}
+.authFormInputs {
+    width: 100%;
+    height: 50px;
+}
+
+.authFormInputs label{
+    color: rgb(255, 255, 255);
+    /* padding: 0; */
+}
+.authFormInputs input{
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    background-color: rgba(80, 86, 86, 0.632);
+    border: 1px solid #ffffff75;
+    /* padding: 0; */
+}
+.authForm select {
+    color: rgb(252, 247, 247);
+    border: none;
+    outline: none;
+    background-color: rgba(80, 86, 86, 0.632);
+    border: 1px solid #ffffff75;
+    font-size: medium;
+    padding: 15px 10px;
+}
+.authFormInputs input #floatingInput .form-control{
+    padding: 0 !important;
+}
+
+.authForm button{
+    background-color: rgb(0, 108, 197);
+    font-weight: bold;
+    color: rgb(246, 251, 255);
+    height: 50px;
+}
+.authForm p{
+    margin-top: 5%;
+    color: rgb(251, 251, 251);
+}
+.authForm p span{
+    margin-top: 5%;
+    color: rgba(201, 79, 9, 0.811);
+    cursor: pointer;
+    font-weight: bold;
+}
