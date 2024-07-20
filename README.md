@@ -1,3 +1,4 @@
+### Flight Booking APP-MERN full stack
 **Here is a breakdown of the entities and their relationships:**
 
 1. USER: Represents the individuals or entities who book flights. A customer can place multiple bookings and make various payments.
