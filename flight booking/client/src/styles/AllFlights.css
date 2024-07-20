@@ -1,0 +1,71 @@
+.allFlightsPage {
+    
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(0deg, #cd5f04, #e69455, #f7c999, #ffffe1);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* or use contain */
+    background-position: center center;
+}
+
+.allFlightsPage h1{
+    color: rgb(252, 147, 9);
+    margin-left: 3vw;
+    padding: 12vh;
+    display:flex;
+    justify-content: center;
+}
+
+.allFlights{
+
+    margin-top: 5vh;
+    width: 90%;
+    margin-left: 5%;
+    height: fit-content;
+    padding-bottom: 5vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 30px;
+}
+
+.allFlights .allFlights-Flight{
+
+    background-color: rgba(20, 19, 19, 0.834);
+    backdrop-filter: blur(10px);
+    border-radius: 0.8rem;
+    width: 90%;
+    margin-left: 5%;
+    padding: 3vh 2vw;
+    border: 2px solid;
+    box-shadow: rgba(225, 228, 231, 0.2) 0px 8px 24px;
+}
+.allFlights .allFlights-Flight:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.allFlights .allFlights-Flight span{
+    display: flex;
+    gap: 25px;
+    
+}
+
+.allFlights .allFlights-Flight p{
+    margin: 0;
+    margin-bottom: 3px;
+    color: rgb(255, 255, 255);
+}
+.allFlights .allFlights-Flight p b{
+
+    font-weight: 600;
+    color: rgb(207, 119, 37);
+}
+.allFlights .allFlights-Flight ol{
+    margin: 0;   
+    font-size: 0.85rem;     
+}
+.allFlights .allFlights-Flight ol b{
+   font-weight: 500;      
+}
+.allFlights .allFlights-Flight button{
+
+    margin-top: 15px;
+}
